@@ -1,0 +1,101 @@
+@media(max-width: 1312px){
+  html{
+    font-size: 50%;
+  }
+
+  .hero-img-box{
+    max-width: 45%;
+}
+}
+
+/* ------------------------------------------------- */
+@media(max-width: 1045px){
+  html{
+    font-size: 45%;
+  }
+}
+
+@media(max-width: 961px){
+
+  .signup-section-bg{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .signup-form{
+    box-sizing: border-box;
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+  .form-img{
+display: none;
+  }
+}
+/* ------------------------------------------------- */
+
+@media (max-width:815px) {
+  html{
+    font-size: 40%;
+  }
+    
+  .hero-text-box{
+    max-width: 100%;
+    margin-bottom: 5rem;
+}
+.hero-img-box{
+  max-width: 80%;
+}
+.hero-img{
+  padding-left: 15rem;
+}
+
+.signup-form h1{
+  font-size: 3rem;
+}
+.signup-form p{
+font-size: 1.4rem;
+}
+}
+/* ------------------------------------------------- */
+
+@media(max-wdith: 700px){
+  html{
+    font-size: 35%;
+  }
+  .header .img-div {
+    width: 12%;
+}
+
+.main-nav{
+  width: 90%;
+} 
+
+}
+
+/* ------------------------------------------------- */
+@media(max-width: 600px){
+  html{
+    font-size: 30%;
+  }
+
+  .flex-section .flex-container{
+    flex-wrap: wrap;
+  }
+  .div-1,.div-2{
+    margin: 2rem;
+  }
+}
+
+/* ------------------------------------------------- */
+@media(max-width: 450px){
+html{
+  font-size: 25%;
+}
+}
+
+/* ------------------------------------------------- */
+@media(max-width: 375px){
+html{
+  font-size: 20%;
+}
+}
+
