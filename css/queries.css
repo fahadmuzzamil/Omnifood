@@ -17,18 +17,14 @@
 
 @media(max-width: 961px){
 
-  .signup-section-bg{
-    display: flex;
-    flex-wrap: wrap;
-  }
   .signup-form{
     box-sizing: border-box;
     padding: 2rem 2rem 1rem 2rem;
 }
 
-  .form-img{
+  /* .form-img{
 display: none;
-  }
+  } */
 }
 /* ------------------------------------------------- */
 
@@ -57,7 +53,7 @@ font-size: 1.4rem;
 }
 /* ------------------------------------------------- */
 
-@media(max-wdith: 700px){
+@media(max-width: 700px){
   html{
     font-size: 35%;
   }
@@ -66,7 +62,7 @@ font-size: 1.4rem;
 }
 
 .main-nav{
-  width: 90%;
+  width: 70%;
 } 
 
 }
@@ -83,6 +79,18 @@ font-size: 1.4rem;
   .div-1,.div-2{
     margin: 2rem;
   }
+
+  .form-img{
+    display: none;
+  }
+
+  .signup-form{
+    padding: 2rem 3rem 1rem 5rem;
+}
+.signup-section-bg{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 }
 
 /* ------------------------------------------------- */
@@ -90,12 +98,20 @@ font-size: 1.4rem;
 html{
   font-size: 25%;
 }
+
 }
 
 /* ------------------------------------------------- */
 @media(max-width: 375px){
 html{
-  font-size: 20%;
+  font-size: 18%;
+}
+}
+
+/* ------------------------------------------------- */
+@media(max-width: 282px){
+html{
+  font-size: 15%;
 }
 }
 

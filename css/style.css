@@ -691,7 +691,7 @@ hr{
 }
 
 .form{
-    margin-bottom: 02rem;
+    margin-bottom: 2rem;
 }
 
 .form label{
@@ -746,7 +746,7 @@ hr{
 }
 
 .form-img{
-    background: linear-gradient(to right bottom,rgba(255, 166, 0, 0.3),rgba(215, 86, 43,0.3)),url(img/eating.jpg) center no-repeat;
+    background: linear-gradient(to right bottom,rgba(255, 166, 0, 0.3),rgba(215, 86, 43,0.3)),url(/img/eating.jpg) center no-repeat;
     background-size: cover;
 }
 .form-img img{
