@@ -536,10 +536,12 @@ hr{
     height: auto;
     margin: 2rem;
     color: black;
+    transition: all .3s;
 }
 .cards:hover{
    cursor: pointer;
    transform: scale(1.2);
+   transition: all .3s;
 }
 
 .child1{
