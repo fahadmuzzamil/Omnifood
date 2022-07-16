@@ -359,6 +359,7 @@ hr{
 
 .column12:hover{
     transform: translateY(-1rem);
+    cursor: pointer;
 }
 .column img{
     max-width: 100%;
@@ -409,6 +410,9 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 1rem;
 }
+.column-3 p:hover{
+    cursor: pointer;
+}
 
 .column-3{
    background-color: white;
@@ -446,6 +450,7 @@ hr{
 
 .testimonials-section{
     width: 50%;
+
 }
 
 .testimonials-section .heading-paragraph p{
@@ -491,6 +496,7 @@ hr{
     width:30%;
     height: 10vw;
     margin: 0.5rem;
+    border-radius: 5%;
 }
 
 /* ----------------------Pricing-Section------------------- */
@@ -530,6 +536,12 @@ hr{
     height: auto;
     margin: 2rem;
     color: black;
+    transition: all .3s;
+}
+.cards:hover{
+   cursor: pointer;
+   transform: scale(1.2);
+   transition: all .3s;
 }
 
 .child1{
@@ -746,7 +758,7 @@ hr{
 }
 
 .form-img{
-    background: linear-gradient(to right bottom,rgba(255, 166, 0, 0.3),rgba(215, 86, 43,0.3)),url(/img/eating.jpg) center no-repeat;
+    background: linear-gradient(to right bottom,rgba(255, 166, 0, 0.3),rgba(215, 86, 43,0.3)),url(../img/eating.jpg) center no-repeat;
     background-size: cover;
 }
 .form-img img{
