@@ -359,6 +359,7 @@ hr{
 
 .column12:hover{
     transform: translateY(-1rem);
+    cursor: pointer;
 }
 .column img{
     max-width: 100%;
@@ -408,6 +409,9 @@ hr{
     padding-bottom: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 1rem;
+}
+.column-3 p:hover{
+    cursor: pointer;
 }
 
 .column-3{
