@@ -1,14 +1,26 @@
+<<<<<<< HEAD
 @media(max-width:2360px){
   html{
     font-size: 75%;
+=======
+@media(max-width:2563px){
+  html{
+    font-size: 100%;
+>>>>>>> a032bd9bb887ea870196f652bd4dbef2fa79a05a
   }
 }
 
 /* ------------------------------------------------- */
 
+<<<<<<< HEAD
 @media(max-width:1080px){
   html{
     font-size: 70%;
+=======
+@media(max-width:1921px){
+  html{
+    font-size: 80%;
+>>>>>>> a032bd9bb887ea870196f652bd4dbef2fa79a05a
   }
 }
 
